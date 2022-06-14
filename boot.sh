@@ -1,0 +1,1 @@
+efibootmgr -c -l vmlinuz-linux -L "Arch Linux" -u 'cryptdevice=/dev/sda2:luks root=/dev/arch/root rw initrd=\intel-ucode.img initrd=\initramfs-linux.img quiet loglevel=3 rd.udev.log_level=3 splash vt.global_cursor_default=0'
